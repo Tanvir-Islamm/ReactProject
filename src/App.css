@@ -1,0 +1,283 @@
+
+.pdTop {
+  padding-top: 100px; 
+}
+.country-img {
+  width: 100%;           /* Image fills the card width */
+  height: 150px;         /* All images same height */
+  object-fit: cover;     /* Crops instead of stretching */
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.nav-link{
+  color:rgb(88, 86, 86)!important;
+}
+.nav-link:hover{
+  color:rgb(8, 8, 8)!important;
+}
+.navbar-brand{
+  font-size:1.5rem!important;
+  font-weight: 600;
+}
+
+.bg-color{
+  background-color: rgb(54 102 172) !important;
+}
+
+.inputStyle{
+  justify-content: right;
+}
+
+.inputStyle{
+  width: 150px;                   
+  max-width: 200px;             
+  padding: 8px 15px;
+  border: 2px solid #4d44cc;     
+  border-radius: 8px;          
+  font-size: 16px;              
+  outline: none;                
+  transition: 0.3s ease; 
+  height:40px;
+  border-color: #24568b; 
+       
+  
+}
+
+
+
+.inputStyle:focus {
+  border-color: #007bff;        
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+}
+
+.btn-size{
+  
+  height:40px;
+  width: 75px;
+}
+
+.form-select{
+  height: 40px;
+}
+
+.selectForm{
+   
+  border: 2px solid #4d44cc !important;     
+  border-radius: 8px !important;          
+  font-size: 16px !important;              
+  outline: none !important;                
+  transition: 0.3s ease !important; 
+  height:40px !important;
+       
+}
+
+.selectForm:focus{
+  border-color: #007bff !important;        
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.5) !important;
+}
+
+.nav-item a{
+  padding: 10px 20px;
+  list-style:none;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+
+.card-style{
+  box-shadow:0 5px 6px rgba(0,0,0,0.1);
+  border-radius:10px !important;
+  overflow: hidden;
+ 
+  
+}
+
+.ac-style {
+    border-color: orangered!important;
+    background-color: #e9ecef75 !important;
+    
+    
+}
+span{
+  font-weight: 500;
+}
+.aboutp{
+  font-weight:600;
+  font-size: 2rem;
+  margin-top: 6rem;
+}
+.hero{
+  margin-top: 6rem;
+}
+.icon{
+  font-weight: 1000;
+}
+
+.fw-bold{
+  font-weight: 600!important;
+}
+
+.mytext{
+ font-size:14px!important;
+ margin-bottom: 2px;
+}
+
+.footernav{
+  font-size:15px!important;
+}
+
+@media(max-width:575px){
+
+  .fsearch{
+    
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .btn-size{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height:30px;
+  width: 55px;
+  font-size: 12px!important;
+  text-align: center!important;
+ 
+ }
+
+ 
+.inputStyle{
+  width: 100%;                   
+               
+  padding: 8px 15px;
+  border: 2px solid #4d44cc;     
+  border-radius: 8px;          
+  font-size: 16px;              
+  outline: none;                
+  transition: 0.3s ease; 
+  height:40px;
+  border-color: #24568b; 
+       
+  
+}
+
+.selectForm{
+   
+  border: 2px solid #4d44cc !important;     
+  border-radius: 8px !important;          
+  font-size: 16px !important;              
+  outline: none !important;                
+  transition: 0.3s ease !important; 
+  height:40px !important;
+  width:100%;
+       
+}
+
+.aboutp{
+  font-weight:600;
+  font-size: 1.3em;
+  margin-top: 15px;
+}
+
+.heroOne h1{
+  font-size: 2rem;
+}
+.heroOne p{
+  font-size: 1rem;
+}
+
+
+}
+
+
+@media(max-width:768px){
+.heroOne{
+  margin-top: 0px!important;
+  text-align: center;
+ 
+
+}
+.heroTwo{
+text-align: center;
+margin-top:28px!important;
+
+}
+.hero{
+ margin-top: 2rem;
+}
+.aboutp{
+  margin-top: 1rem;
+}
+.myfooter{
+  
+ 
+}
+
+.social{
+  padding-left: 0!important;
+}
+
+.nav-item a{
+  padding-bottom: 0;
+  
+  
+}
+
+.nav-link{
+		padding: .5rem 0rem !important;
+
+	}
+	.navbar-toggler-icon {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    width: 35px!important;
+    height: 30px!important;
+    line-height: 30px!important;
+    text-align: center!important;
+}
+
+.heroOne{
+  padding-top: 80px!important;
+}
+
+.aboutSection{
+  padding-top:80px!important;
+}
+}
+
+
+.loader {
+  width: 50px;
+  padding: 8px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #25b09b;
+  --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
+  -webkit-mask: var(--_m);
+  mask: var(--_m);
+  -webkit-mask-composite: source-out;
+  mask-composite: subtract;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.loader-section {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

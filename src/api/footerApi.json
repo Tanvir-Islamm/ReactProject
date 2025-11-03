@@ -1,0 +1,18 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find us",
+    "details": "Dhaka,Bangladesh"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call us",
+    "details": "2498242"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail us",
+    "details": "tanvirislamm.39@gmail.com"
+
+  }
+]
